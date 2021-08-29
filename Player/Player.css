@@ -1,5 +1,34 @@
+/*
+		Tap設定
+*/
+
 body{
 	background-color: rgb(48,64,255);
+}
+
+/*
+		Class設定
+*/
+
+.buttom{
+	text-align:center;
+	line-height: 10vw;
+	margin-left: 5vw;
+	margin-top: 5vw;
+	background-color: white;
+	float: left;
+	width: 10vw;
+	height: 10vw;
+	border-width: thin;
+	border-radius:5vw;
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+	user-select:none;
+
+}
+
+.buttom:active{
+	box-shadow:-5px -5px rgba(0, 0, 0, 0.7);
+
 }
 
 .window{
@@ -18,6 +47,10 @@ body{
 .blue{
 	color:rgb(56,199,255);
 }
+
+/*
+		Id設定
+*/
 
 
 #Topic{
@@ -67,3 +100,9 @@ body{
 	height:15vh;
 	width:50vw;
 }
+
+/*
+		其餘設定
+*/
+
+
