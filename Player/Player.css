@@ -89,7 +89,7 @@ body{
 
 #AnswerRegion{
 	float:left;
-	height:40vh;
+	height:35vh;
 	width:50vw;
 	margin-bottom:5vh;
 
@@ -97,7 +97,7 @@ body{
 
 #ChatRegion{
 	float:left;
-	height:15vh;
+	height:20vh;
 	width:50vw;
 }
 
