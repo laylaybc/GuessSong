@@ -1,0 +1,113 @@
+/*
+		Tap設定
+*/
+
+body{
+	background-color: rgb(48,64,255);
+}
+
+/*
+		Class設定
+*/
+
+.buttom{
+	text-align:center;
+	line-height: 10vw;
+	margin-left: 5vw;
+	margin-top: 5vw;
+	background-color: white;
+	float: left;
+	width: 10vw;
+	height: 10vw;
+	border-width: thin;
+	border-radius:5vw;
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+	user-select:none;
+
+}
+
+.buttom:active{
+	box-shadow:-5px -5px rgba(0, 0, 0, 0.7);
+
+}
+
+.window{
+	background-color : white;
+	border-width: thin;
+	border-radius: 10px;
+	border-width: thin;
+
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.yellow{
+	color:rgb(254, 211, 17);
+}
+
+.blue{
+	color:rgb(56,199,255);
+}
+
+/*
+		Id設定
+*/
+
+
+#Topic{
+	margin-top: 15vh;
+	margin-bottom:5vh;
+}
+
+#Topic>h1{
+	-webkit-text-stroke:1px black;
+	font-size:45px;
+
+	margin:auto;
+	text-align: center;
+
+	width: 75vw;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+#Article{
+	width: 75vw;
+	height:60vh;
+
+	margin:auto;
+
+}
+
+#PlayerList{
+	float:left;
+	height:70vh;
+	width:20vw;
+	margin-right:5vw;
+
+}
+
+#PlayerAnswer{
+    float:left;
+	height:15vh;
+	width:50vw;
+
+}
+
+#AnswerRegion{
+	float:left;
+	height:30vh;
+	width:50vw;
+	margin-bottom:5vh;
+
+}
+
+#ChatRegion{
+	float:left;
+	height:20vh;
+	width:50vw;
+}
+
+/*
+		其餘設定
+*/
