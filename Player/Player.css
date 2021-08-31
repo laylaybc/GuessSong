@@ -21,6 +21,7 @@ body{
 	height: 10vw;
 	border-width: thin;
 	border-radius:5vw;
+
 	box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
 	user-select:none;
 
@@ -77,6 +78,18 @@ body{
 
 	margin:auto;
 
+}
+
+#Answer{
+	width: 15vw;
+	height: 15vw;
+	border-radius:15vw;
+	line-height: 15vw;
+	margin-top: 5vh;
+}
+
+#GiveUp{
+	margin-left: 3vw;
 }
 
 #PlayerList{
